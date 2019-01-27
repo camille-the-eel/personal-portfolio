@@ -26,6 +26,10 @@ nav ul li a {
     font-size: 28px;
 }
 
+a {
+    color: #ffffff !important;
+}
+
 .title {
     font-family: din-condensed, sans-serif;
     font-weight: 400;
@@ -164,4 +168,26 @@ nav ul li a {
 
 .headshot {
     width: 100%;
+}
+
+.projects {
+    width: 100%;
+}
+
+.project-title {
+    color: #363434;
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 1;
+}
+
+.project-descrip {
+    color: #363434;
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.4;
 }
