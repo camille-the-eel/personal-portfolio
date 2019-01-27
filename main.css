@@ -30,6 +30,10 @@ a {
     color: #ffffff !important;
 }
 
+.inline-link {
+    color: #363434 !important;
+}
+
 .title {
     font-family: din-condensed, sans-serif;
     font-weight: 400;
@@ -184,10 +188,15 @@ a {
 }
 
 .project-descrip {
-    color: #363434;
+    color: #363434 !important;
     font-family: din-condensed, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
     line-height: 1.4;
+}
+
+.media-icon {
+    width: 50px;
+    margin-right: 20px;
 }
