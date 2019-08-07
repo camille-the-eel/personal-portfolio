@@ -1,0 +1,31 @@
+.content {
+    width: 75%;
+    margin: auto;
+}
+
+.project-group {
+    max-width: 75%;
+}
+
+img {
+    max-width: 100%;
+    border: 1px solid #000000;
+}
+
+.project-title {
+    color: #363434;
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 1;
+}
+
+.project-descrip {
+    color: #363434 !important;
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.4;
+}
