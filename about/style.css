@@ -1,0 +1,26 @@
+.about-container {
+    width: 65%;
+    margin: 10px 60px;
+}
+
+.about-head {
+    color: #363434;
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 1;
+}
+
+.about {
+    color: #363434;
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.headshot {
+    width: 100%;
+}

@@ -14,9 +14,29 @@ nav {
     height: 70px;
 }
 
+.navbar-toggler {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
 .nav-content {
     color: #363434 !important;
     margin: 5px 25px 0px 20px;
+}
+
+.nav-list {
+    position: fixed;
+    right: 10px;
+    background-color: #ffffff;
+}
+
+.btn:active {
+    outline: none !important;
+ }
+
+.material-icons.md-36 { 
+    font-size: 36px; 
 }
 
 nav ul li a {
@@ -24,6 +44,7 @@ nav ul li a {
     font-weight: 400;
     font-style: normal;
     font-size: 28px;
+    text-align: center;
 }
 
 a {
@@ -111,6 +132,11 @@ a {
     top: 200px;
 }
 
+.media-icon {
+    width: 50px;
+    margin-right: 20px;
+}
+
 .contact-footer {
     float: right;
     margin: 60px 0px 50px 0px;
@@ -141,62 +167,4 @@ a {
     font-size: 25px;
     line-height: .5;
     text-align: right;
-}
-
-.social {
-    padding-right: 20px;
-}
-
-.about-container {
-    width: 65%;
-    margin: 10px 60px;
-}
-
-.about-head {
-    color: #363434;
-    font-family: din-condensed, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
-    line-height: 1;
-}
-
-.about {
-    color: #363434;
-    font-family: din-condensed, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    line-height: 1.4;
-}
-
-.headshot {
-    width: 100%;
-}
-
-.projects {
-    width: 100%;
-}
-
-.project-title {
-    color: #363434;
-    font-family: din-condensed, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
-    line-height: 1;
-}
-
-.project-descrip {
-    color: #363434 !important;
-    font-family: din-condensed, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    line-height: 1.4;
-}
-
-.media-icon {
-    width: 50px;
-    margin-right: 20px;
 }
