@@ -23,4 +23,10 @@
 
 .headshot {
     width: 100%;
+    padding: 0px;
+    margin-bottom: 35px;
+}
+
+.about-img {
+    padding: 0px !important;
 }
