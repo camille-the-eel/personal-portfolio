@@ -1,0 +1,83 @@
+/* ALL "ODD" SPECIFIC STYLING */
+
+img.projects.odd {
+    max-width: 100%;
+    border: 8px solid #363434;
+    box-shadow: 12px 12px #ffffff, 40px 40px #363434;
+    /* 52px of box-shadow */
+    margin-bottom: 60px;
+}
+
+.project-text.odd {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+@media only screen and (max-width: 992px) {
+    .project-group.odd {
+        position: static;
+        margin: 8%;
+    }
+
+    .project-text.odd {
+        position: static;
+        text-align: right;
+        margin-right: -6%;
+    }
+
+    .odd > p {
+        max-width: 70%;
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .project-group.odd {
+        margin: 7%;
+    }
+
+    .project-text.odd {
+        margin-right: -7%;
+    }
+}
+
+@media only screen and (max-width: 523px) {
+    .project-group.odd {
+        margin: 5%;
+    }
+
+    .odd > p {
+        max-width: 80%;
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 473px) {
+    img.projects.odd {
+        border: 8px solid #363434;
+        box-shadow: 10px 10px #ffffff, 35px 35px #363434;
+        /* 45px of box-shadow */
+    }
+
+    .project-text.odd {
+        margin-right: -8%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    img.projects.odd {
+        border: 6px solid #363434;
+        box-shadow: 8px 8px #ffffff, 30px 30px #363434;
+        /* 38 px of box-shadow */
+    }
+
+    .project-text.odd {
+        margin-right: -9%;
+    }
+
+    .odd > p {
+        max-width: 90%;
+        margin-left: 10%;
+    }
+}

@@ -1,0 +1,85 @@
+/* ALL "EVEN" SPECIFIC STYLING */
+
+img.projects.even {
+    max-width: 100%;
+    border: 8px solid #363434;
+    box-shadow: -12px 12px #ffffff, -40px 40px #363434;
+    /* 52px of box-shadow */
+    margin-bottom: 60px;
+}
+
+.project-text.even {
+    text-align: right;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+@media only screen and (max-width: 992px) {
+    .project-group.even {
+        position: static;
+        margin-left: 12%;
+    }
+
+    .project-text.even {
+        position: static;
+        text-align: left;
+    }
+
+    .text-contain.even {
+        margin-left: -6%; 
+    }
+
+    .even > p {
+        max-width: 70%;
+    } 
+}
+
+
+@media only screen and (max-width: 768px) {
+    .project-group.even {
+        margin-left: 15%;
+    }
+
+    .project-text.even {
+        margin-right: -7%;
+    }
+}
+
+@media only screen and (max-width: 523px) {
+    .project-group.even {
+        margin-left: 13%;
+    }
+
+    .even > p {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 473px) {
+    img.projects.even {
+        border: 8px solid #363434;
+        box-shadow: -10px 10px #ffffff, -35px 35px #363434;
+        /* 45px of box-shadow */
+    }
+
+    .text-contain.even {
+        margin-left: -8%; 
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    img.projects.even {
+        border: 6px solid #363434;
+        box-shadow: -8px 8px #ffffff, -30px 30px #363434;
+        /* 38 px of box-shadow */
+    }
+
+    .text-contain.even {
+        margin-left: -9%; 
+    }
+
+    .even > p {
+        max-width: 90%;
+    }
+}
