@@ -22,11 +22,9 @@
 }
 
 .headshot {
-    width: 100%;
+    width: 0%;
     padding: 0px;
+    margin-left: 60px;
     margin-bottom: 35px;
-}
-
-.about-img {
-    padding: 0px !important;
+    border-radius: 15px;
 }
